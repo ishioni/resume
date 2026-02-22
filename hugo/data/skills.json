@@ -1,0 +1,43 @@
+[
+  {
+    "grouping": "Architecture",
+    "skills": [
+      "IPv4/v6 Networking",
+      "DNS",
+      "Firewalls",
+      "Load Balancing",
+      "Microservices",
+      "RESTful APIs",
+      "SaaS/PaaS/IaaS"
+    ]
+  },
+  {
+    "grouping": "Languages & Tools",
+    "skills": ["C", "Go", "Python", "Terraform", "Helm", "Git", "Bash"]
+  },
+  {
+    "grouping": "Data Management",
+    "skills": [
+      {"name": "Postgres", "devicon": "postgresql"},
+      {"name": "MariaDB"},
+      {"name": "MongoDB", "devicon": "mongodb"},
+      {"name": "Kafka", "devicon": "apachekafka"}
+    ]
+  },
+  {
+    "grouping": "Containers & Cloud",
+    "skills": [
+      {"name": "AWS", "devicon": "amazonwebservices", "link": "https://aws.amazon.com"},
+      {"name": "Google Cloud", "devicon": "googlecloud", "link": "https://cloud.google.com"},
+      {"name": "Talos", "link": "https://www.talos.dev"},
+      {"name": "Docker", "link": "https://docker.com"},
+      {"name": "Kubernetes", "link": "https://kubernetes.io"},
+      {"name": "ArgoCD", "link": "https://argoproj.github.io/cd/"},
+      {"name": "FluxCD", "link": "https://fluxcd.io"}
+    ]
+  },
+  {
+    "grouping": "Collaboration tools",
+    "skills": ["Jira", "Github", "Slack"]
+  }
+]

@@ -1,0 +1,54 @@
+baseURL: "https://resume.movishell.pl/"
+languageCode: "en-us"
+title: "Resume"
+theme: "resume"
+copyright: '<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC-4.0</a>'
+
+enableEmoji: true
+enableGitInfo: false
+enableInlineShortcodes: true
+enableRobotsTXT: false # use /static/robots.txt
+
+defaultContentLanguage: "en"
+timeZone: Europe/Warsaw
+
+outputs:
+  home: [HTML, JSON]
+
+params:
+  address: "Warsaw, Poland"
+  email: "hireme@movishell.pl"
+  favicon: "/favicon.ico"
+  firstName: "Piotr"
+  lastName: "Maksymiuk"
+  phone: "48-723-009-006"
+  profileImage: "img/profile.jpg"
+  showQr: true
+  showContact: true
+  showBoards: false
+  showCertifications: false
+  showSocializations: true
+  sections: ["skills", "experience", "education"]
+  vcardfields: ["name", "image", "org", "email", "workemail", "phone", "url", "title"]
+  handles:
+    - name: "LinkedIn"
+      link: "https://www.linkedin.com/in/piotr-maksymiuk-9a3395130/"
+    - name: "GitHub"
+      link: "https://github.com/ishioni/"
+    - name: "Keybase"
+      link: "https://keybase.io/ishioni"
+      icon: "keybase"
+
+taxonomies:
+  tag: "tags"
+
+mediaTypes:
+  "text/vcard":
+    suffixes: ["vcf"]
+
+outputFormats:
+  VCard:
+    mediaType: "text/vcard"
+    baseName: "contact"
+    isPlainText: true
+    notAlternative: true

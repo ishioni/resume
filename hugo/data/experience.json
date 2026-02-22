@@ -1,0 +1,27 @@
+[
+  {
+    "role": "Senior Platform Engineer",
+    "company": "Docplanner",
+    "summary": "As a senior SRE in the core platform team, I manage AWS environments including EKS clusters and RDS databases. I led migrations from kops to EKS and from New Relic to Datadog, enabled ArgoCD, and helped developers deploy applications through Terraform and Helm-backed self-service workflows. I introduced Karpenter, maintained multiple Kubernetes upgrades, and worked closely with the Data Engineering team, supporting Airflow infrastructure and CDC pipelines with Kafka and Debezium. Much of my work has focused on building and evolving infrastructure as code, ensuring scalable, reliable, and developer-friendly platforms",
+    "range": "May 2019 - Now"
+  },
+
+  {
+    "role": "Linux Support Engineer",
+    "company": "GreenSteam A.B.",
+    "summary": "At a company focused on using machine learning to optimize freight-ship maintenance and routing, I supported and scripted ship-edge computers with Ansible and contributed to the initial migration of the main application from static servers into a Kubernetes environment",
+    "range": "January 2019 - April 2019"
+  },
+  {
+    "role": "Senior Systems Specialist",
+    "company": "Roche ADMD",
+    "summary": "I worked as a Linux systems administrator focused on Adobe AEM environments running on SLES Linux, handling everything from building and customizing vmWare templates to automating deployments with PXE, Spacewalk, and Salt. I developed and maintained Bash-based utilities supporting AEM, managed a decentralized logging stack using Graylog, Logstash, and HAProxy, and created Ansible playbooks to streamline deployments. My responsibilities also included monitoring through Centreon, Netdata, Observium, and a wide range of custom Nagios checks.",
+    "range": "March 2012 - December 2018"
+  },
+  {
+    "role": "Technical Student",
+    "company": "CERN",
+    "summary": "As a technical student at CERN, I developed an SSH load balancer and a VM automation frontend using Drupal, streamlining access and management of virtual machines across the organization",
+    "range": "August 2010 - July 2011"
+  }
+]
