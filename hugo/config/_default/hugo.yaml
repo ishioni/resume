@@ -24,7 +24,7 @@ params:
   phone: "48-723-009-006"
   profileImage: "img/profile.jpg"
   showQr: true
-  showContact: true
+  showContact: false
   showBoards: false
   showCertifications: false
   showSocializations: true
