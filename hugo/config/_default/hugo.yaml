@@ -29,7 +29,7 @@ params:
   showCertifications: false
   showSocializations: true
   sections: ["skills", "experience", "education"]
-  vcardfields: ["name", "image", "org", "email", "workemail", "phone", "url", "title"]
+  vcardfields: ["name", "image", "email", "phone", "url"]
   handles:
     - name: "LinkedIn"
       link: "https://www.linkedin.com/in/piotr-maksymiuk-9a3395130/"

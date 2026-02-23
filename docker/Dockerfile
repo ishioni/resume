@@ -1,5 +1,5 @@
 # https://sko.ai/blog/how-to-actually-build-hugo-containers/
-FROM --platform=$BUILDPLATFORM docker.io/library/alpine:3.23@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659 AS build
+FROM --platform=$BUILDPLATFORM docker.io/hugomods/hugo:0.156.0@sha256:1362679b7c53bf19fd72720b9fe3e514aaccc41ebf44f8e9dc342deda1ca54ed AS build
 
 # Set shell options for safety
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
@@ -14,21 +14,6 @@ LABEL org.opencontainers.image.description="Generate Yelling at Clouds static si
 LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
-
-RUN  apk add --no-cache \
-      git \
-      go \
-      hugo \
-      tzdata \
-      curl \
-      unzip
-
-# Set Dart Sass version
-ENV DART_SASS_VERSION=1.86.3
-
-# Download and install Dart Sass binary
-RUN curl -sSL https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64-musl.tar.gz \
-    | tar -xz -C /usr/local/bin --strip-components=1
 
 WORKDIR /src
 COPY . .
