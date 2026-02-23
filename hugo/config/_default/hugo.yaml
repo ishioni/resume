@@ -2,6 +2,7 @@ baseURL: "https://resume.movishell.pl/"
 languageCode: "en-us"
 title: "Resume"
 theme: "resume"
+trailingSlash: "always"
 copyright: '<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC-4.0</a>'
 
 enableEmoji: true
@@ -23,8 +24,8 @@ params:
   lastName: "Maksymiuk"
   phone: "48-723-009-006"
   profileImage: "img/profile.jpg"
-  showQr: true
-  showContact: false
+  showQr: false
+  showContact: true
   showBoards: false
   showCertifications: false
   showSocializations: true
