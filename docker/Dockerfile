@@ -1,5 +1,5 @@
 # https://sko.ai/blog/how-to-actually-build-hugo-containers/
-FROM --platform=$BUILDPLATFORM docker.io/hugomods/hugo:0.157.0@sha256:b3120a7fb2a29fca732193ec1273d21bae2353c81a432fa5f64902aaebc1e547 AS build
+FROM --platform=$BUILDPLATFORM docker.io/hugomods/hugo:0.159.1@sha256:9adabca736765ff2320aeceae26388f9cabf356307adfac89f9403a2666fb5c3 AS build
 
 # Set shell options for safety
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
