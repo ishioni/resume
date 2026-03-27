@@ -10,7 +10,7 @@ ARG VCS_REF
 
 # Add build-time labels
 LABEL org.opencontainers.image.source="https://github.com/ishioni/yellingatclouds"
-LABEL org.opencontainers.image.description="Generate Yelling at Clouds static site with Hugo"
+LABEL org.opencontainers.image.description="Generate resume static site with Hugo"
 LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
@@ -29,7 +29,7 @@ ARG VCS_REF
 
 # Add runtime labels
 LABEL org.opencontainers.image.source="https://github.com/ishioni/yellingatclouds"
-LABEL org.opencontainers.image.description="Generate Yelling at Clouds static site with Hugo"
+LABEL org.opencontainers.image.description="Generate resume static site with Hugo"
 LABEL org.opencontainers.image.version="1.0.0"
 LABEL org.opencontainers.image.created="${BUILD_DATE}"
 LABEL org.opencontainers.image.revision="${VCS_REF}"
